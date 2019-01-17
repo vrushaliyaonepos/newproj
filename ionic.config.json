@@ -1,0 +1,7 @@
+{
+  "name": "logindemo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
