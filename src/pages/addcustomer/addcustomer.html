@@ -1,0 +1,47 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>Add Customer</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+
+    <ion-item>
+      <ion-label stacked>First Name</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.first_name" name="first_name"></ion-input>
+    </ion-item>
+	
+	<ion-item>
+      <ion-label stacked>Last Name</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.last_name" name="last_name"></ion-input>
+    </ion-item>
+	
+	<ion-item>
+      <ion-label stacked>Username</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.username" name="username"></ion-input>
+    </ion-item>
+	
+    <ion-item>
+      <ion-label stacked>Password</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.pass_word" name="pass_word"></ion-input>
+    </ion-item>
+	
+    <ion-item>
+      <ion-label stacked>Email</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.email" name="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Address</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.address" name="address"></ion-input>
+    </ion-item>  
+	
+	
+
+  <div padding>
+    <button ion-button   (click)="addcustomer()" color="primary" block>Customer Registration</button>
+  </div>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,107 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>Add Inventory</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+
+    <ion-item>
+      <ion-label stacked>User id</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.user_id" name="user_id"></ion-input>
+    </ion-item>
+	
+	<ion-item>
+      <ion-label stacked>Station id</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.station_id" name="station_id"></ion-input>
+    </ion-item>
+	
+	<ion-item>
+      <ion-label stacked>Department id</ion-label>
+      <!-- <ion-input type="text" [(ngModel)] = "result.status" name="dep_id"></ion-input> -->
+	   <ion-input type="text" [(ngModel)] = "account.status" name="status"></ion-input>
+	  
+    </ion-item>
+	
+    <ion-item>
+      <ion-label stacked>Inventory Name</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.inventory_name" name="inventory_name"></ion-input>
+    </ion-item>
+	
+    <ion-item>
+      <ion-label stacked>Inventory No</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.inventory_no" name="inventory_no"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Cost</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.cost" name="cost"></ion-input>
+    </ion-item>  
+	
+	<ion-item>
+      <ion-label stacked>Price Charge</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.price_charge" name="price_charge"></ion-input>
+    </ion-item>  
+	
+	
+	<ion-item>
+      <ion-label stacked>Tax</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.tax" name="tax"></ion-input>
+    </ion-item>  
+	
+	
+	<ion-item>
+      <ion-label stacked>Price Tax</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.price_tax" name="price_tax"></ion-input>
+    </ion-item>  
+	
+	
+	<ion-item>
+      <ion-label stacked>Re_Qty</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.re_Qty" name="re_Qty"></ion-input>
+    </ion-item>  
+	
+	
+	<ion-item>
+      <ion-label stacked>Sku</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.sku" name="sku"></ion-input>
+    </ion-item>  
+	
+	
+	<ion-item>
+      <ion-label stacked>Note</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.note" name="note"></ion-input>
+    </ion-item>  
+
+	<ion-item>
+      <ion-label stacked>Reorderlevel</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.reorderlevel" name="reorderlevel"></ion-input>
+    </ion-item>  
+	  
+	
+	<ion-item>
+      <ion-label stacked>Vendor</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.vendor" name="vendor"></ion-input>
+    </ion-item>  
+	
+	<ion-item>
+      <ion-label stacked>modifieritem</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.modifieritem" name="modifieritem"></ion-input>
+    </ion-item>  
+	
+	<ion-item>
+      <ion-label stacked>add_modifier_data</ion-label>
+      <ion-input type="text" [(ngModel)] = "account.add_modifier_data" name="add_modifier_data"></ion-input>
+    </ion-item>  
+	
+	
+	
+	
+
+  <div padding>
+    <button ion-button   (click)="addinventory()" color="primary" block>Register</button>
+  </div>
+  </ion-list>
+</ion-content>
